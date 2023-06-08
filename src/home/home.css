@@ -1,0 +1,224 @@
+*{
+    margin: 0px;
+    padding: 0px;
+   
+  }
+
+
+  .slider .item{
+      width: 100%;
+      height: 500px;
+  }
+  
+  .carousel-inner h1{
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50% , -50%);
+      color: white;
+      font-size: 60px;
+  }
+  
+  .about{
+    margin-top: 5%;
+    /* background-color: yellow; */
+    height: 320px;
+    
+  }
+  
+  .about .content{
+    margin-left: 5%;
+  }
+  
+  .about .content .span1{
+    font-family: 'Inknut Antiqua';
+    font-style: normal;
+    color: #FC9630;
+  }
+  
+  .about .content h3{
+    font-family: 'Inter';
+    font-style: normal;
+    letter-spacing: 0.06em; 
+    margin-top: 2%;
+    text-align: justify;
+  }
+  
+  .about .about-img img{
+    width: 500px;
+    height: 300px;
+    float: right;
+    margin-top: -136px;
+    margin-right: 5%;
+    border-radius: 5px;
+  }
+  
+  .about .btn{
+    margin-left: 4%;
+    margin-top: 1%;
+  }
+  
+  .about .btn h2 .contact-link{
+    background-color: #FC9630;
+    border-radius: 5px;
+    padding: 5px 20px 5px 20px;
+    color: white;
+    text-decoration: none;
+  }
+
+  
+  .product{
+    margin-top: 10%;
+  }
+  
+  .product .title{
+    text-align: center;
+  }
+  
+  .product .types-product{
+    margin-top: 8%;
+    display: flex;
+    grid-gap: 230px;
+    justify-content: center;
+  
+  }
+  
+  .product .types-product .prod-1 img{
+    width: 500px;
+    height: 300px;
+    border-radius: 5px;
+    
+  }
+  
+  .product .types-product .prod-2 img{
+    width: 500px;
+    height: 300px;
+    border-radius: 5px;
+  }
+  
+  .product .types-product .prod-1,.prod-2 h1{
+    text-align: center;
+  }
+  
+  
+  
+  .gallery
+  {
+    margin-top: 10%;
+  }
+  
+  .gallery .title{
+    text-align: center;
+  }
+  
+  .gallery .img{
+    margin-top: 8%;
+    display: grid;
+    grid-template-columns: 20% 20% 20% 20%;
+    justify-content: center;
+    grid-gap: 50px;
+  }
+  
+  .gallery .img .img-1 img{
+    width: 270px;
+    height: 270px;
+    border-radius:10px;
+  }
+  
+  .gallery .img .img-2 img{
+    width: 270px;
+    height: 270px;
+    border-radius:10px;
+  
+  }
+  
+  .gallery .img .img-3 img{
+    width: 270px;
+    height: 270px;
+    border-radius:10px;
+  }
+  
+  .gallery .img .img-4 img{
+    width: 270px;
+    height: 270px;
+    border-radius:10px;
+  }
+  
+  .gallery .img .img-5 img{
+    width: 270px;
+    height: 270px;
+    border-radius:10px;
+  }
+  
+  .gallery .img .img-6 img{
+    width: 270px;
+    height: 270px;
+    border-radius:10px;
+  }
+  
+  .gallery .img .img-7 img{
+    width: 270px;
+    height: 270px;
+    border-radius:10px;
+  }
+  .gallery .btn2{
+    margin-top: 5%;
+  }
+  
+  .gallery .btn2 h1 .loadmore-link{
+    font-size: 25px;
+    background-color: #FC9630;
+    text-align: center;
+    border-radius: 40px 40px 40px 40px;
+    padding: 15px;
+    color: white;
+    text-decoration: none;
+  }
+  
+  .contact{
+    margin-top: 5%;
+    width: 100%;
+    height: 60px;
+    background-color: #FC9630;
+    border-radius: 100px;
+    display: flex;
+    
+  }
+  
+  .contact .phone,.email,.Address {
+    margin-left: 5%;
+    margin-top: 0.6%;
+    font-weight: bold;
+    color: white;
+    display: flex;
+    
+  }
+
+  .contact .phone .phone-icon i ,
+  .email .email-icon i,
+  .Address .address-icon i{
+    font-size: 30px;
+    color:#FC9630;
+    background-color: white;
+    padding: 5px;
+    border-radius: 5px;
+  }
+
+  .contact .phone .phone-info,
+  .contact .email .email-info,
+  .contact .Address .address-info{
+    margin-left: 5px;
+  }
+  
+  
+  
+  .email{
+    margin-left: 380px;
+  }
+  .Address{
+    margin-left: 270px;
+  }
+
+  
+  
+  
