@@ -1,0 +1,88 @@
+.gallery-form-box{
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50% ,-50%);
+    background-color: rgb(235, 235, 235);
+    width: 400px;
+    height: 420px;
+    border-radius: 10px;
+}
+
+.gallery-form-box .frm-field{
+    margin-left: 11%;
+    margin-top: 15%;
+}
+
+.gallery-form-box .frm-field label{
+    display: flex;
+    margin-top: 5%;
+    font-size: 20px;
+}
+
+.gallery-form-box .frm-field input{
+    width: 300px;
+    height: 30px;
+    margin-top: 2%;
+    padding: 5px;
+    font-size: 20px;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+
+.gallery-form-box .frm-field select{
+    width: 311px;
+    height: 40px;
+    margin-top: 2%;
+    font-size: 20px;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+
+.gallery-form-box .up-btn{
+    float: right;
+    margin-right: 11%;
+    margin-top: 7%;
+}
+
+.gallery-form-box .up-btn input{
+    font-size: 20px;
+    padding: 5px 15px 5px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.table{
+    margin-top: 35%;
+    margin-bottom: 7%;
+}
+
+.table table{
+    text-align: center;
+    border-spacing: 0px;
+}
+
+.table tr th{
+    width: 500px;
+    font-size: 25px;
+    padding: 10px;
+}
+
+.table tr td{
+    font-size: 22px;
+    padding: 5px;
+}
+
+.table tr:nth-child(even)
+  {
+      background-color:#f2f2f2;
+  }
+  
+  .table tr:nth-child(1)
+  {
+      background-color:#6a6969;;
+  }
+
+  i{
+    color: red;
+  }

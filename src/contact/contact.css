@@ -1,0 +1,34 @@
+.contact-table{
+    margin-top: 5%;
+    margin-bottom: 7%;
+}
+
+.contact-table table{
+    text-align: center;
+    border-spacing: 0px;
+}
+
+.contact-table tr th{
+    width: 500px;
+    font-size: 25px;
+    padding: 10px;
+}
+
+.contact-table tr td{
+    font-size: 22px;
+    padding: 5px;
+}
+
+.contact-table tr:nth-child(even)
+  {
+      background-color:#f2f2f2;
+  }
+  
+  .contact-table tr:nth-child(1)
+  {
+      background-color:#6a6969;;
+  }
+
+  i{
+    color: red;
+  }

@@ -1,0 +1,73 @@
+.title{
+    text-align: center;
+    margin-top: 5%;
+}
+
+.tiles-menu .t-menu{
+    text-align: center;
+}
+
+.tiles-menu .t-menu ul{
+    display: inline-flex;
+    margin-top: 5%;
+    list-style: none;
+}
+
+.tiles-menu .t-menu ul li a{
+    margin-left: 50px;
+    font-size: 20px;
+    padding: 5px 15px 5px 15px;
+    text-decoration: none;
+}
+
+.tiles-menu .t-menu ul li a:hover{
+    background-color: gray;
+    border-radius: 5px;
+    color: white;
+}
+
+
+.tiles-form-box{
+    position: absolute;
+    top: 90%;
+    left: 50%;
+    transform: translate(-50% ,-50%);
+    background-color: rgb(235, 235, 235);
+    width: 400px;
+    height: 290px;
+    border-radius: 10px;
+}
+
+.tiles-form-box .frm-field{
+    margin-left: 11%;
+    margin-top: 15%;
+}
+
+.tiles-form-box .frm-field label{
+    display: flex;
+    margin-top: 5%;
+    font-size: 20px;
+}
+
+.tiles-form-box .frm-field input{
+    width: 300px;
+    height: 30px;
+    margin-top: 2%;
+    padding: 5px;
+    font-size: 20px;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+
+.tiles-form-box .up-btn{
+    float: right;
+    margin-right: 11%;
+    margin-top: 7%;
+}
+
+.tiles-form-box .up-btn input{
+    font-size: 20px;
+    padding: 5px 15px 5px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+}

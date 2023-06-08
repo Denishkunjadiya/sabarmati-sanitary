@@ -1,0 +1,60 @@
+.sanitary-form-box{
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50% ,-50%);
+    background-color: rgb(235, 235, 235);
+    width: 400px;
+    height: 290px;
+    border-radius: 10px;
+}
+
+.sanitary-form-box .frm-field{
+    margin-left: 11%;
+    margin-top: 15%;
+}
+
+.sanitary-form-box .frm-field label{
+    display: flex;
+    margin-top: 5%;
+    font-size: 20px;
+}
+
+.sanitary-form-box .frm-field input{
+    width: 300px;
+    height: 30px;
+    margin-top: 2%;
+    padding: 5px;
+    font-size: 20px;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+
+
+.sanitary-form-box .up-btn{
+    float: right;
+    margin-right: 11%;
+    margin-top: 7%;
+}
+
+.sanitary-form-box .up-btn input{
+    font-size: 20px;
+    padding: 5px 15px 5px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.contact-table tr:nth-child(even)
+  {
+      background-color:#f2f2f2;
+  }
+  
+  .contact-table tr:nth-child(1)
+  {
+      background-color:#6a6969;;
+  }
+
+  i{
+    font-size: 27px;
+    color: red;
+  }
